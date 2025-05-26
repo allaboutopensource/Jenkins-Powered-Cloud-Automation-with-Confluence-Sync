@@ -14,7 +14,7 @@ user = os.getenv('OS_USERNAME')
 pwd = os.getenv('OS_PASSWORD')
 conn = openstack.connect(cloud='openstack')
 conn2 = conn.connect_as(username=user, password=pwd)
-cloud2 = conn2.connect_as_project('7b9b3c86a8ab4a6e9a1cdc8bb07ae190')
+cloud2 = conn2.connect_as_project('asdjhsjdbkdslq237687w3q4tsjdfn')
 
 # Get all projects
 projects = cloud2.identity.projects()
