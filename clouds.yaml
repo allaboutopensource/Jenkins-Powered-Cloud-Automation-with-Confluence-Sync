@@ -1,11 +1,11 @@
 clouds:
   openstack:
     auth:
-      auth_url: https://iadosvip01.ece.ellucian.com:5000/v3
-      username: "sunilka"
-      project_id: 7b9b3c86a8ab4a6e9a1cdc8bb07ae190
-      project_name: "IT Admin"
-      user_domain_name: "Corp"
-    region_name: "iadprod"
+      auth_url: https://yourcreds.com:5000/v3
+      username: "devops"
+      project_id: 213123432434sdfgdsgdfgdfg
+      project_name: "Devops"
+      user_domain_name: "R&D"
+    region_name: "production"
     interface: "public"
     identity_api_version: 3
