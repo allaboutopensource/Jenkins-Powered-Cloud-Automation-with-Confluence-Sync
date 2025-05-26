@@ -1,4 +1,4 @@
-# Jenkins-Powered Cloud Automation with Confluence Sync"
+# Jenkins-Powered Cloud Automation with Confluence Sync
 creating a jenkins pipeline to run the task in the private cloud and fetched the information and upload the results on the confluence page/space.
 
 # Jenkins Pipeline for Private Cloud Task Execution and Confluence Integration
