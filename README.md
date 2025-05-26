@@ -16,3 +16,6 @@ This project sets up a Jenkins pipeline to:
 - Jenkins plugins:
   - Pipeline
   - Confluence Publisher Plugin (or equivalent)
+service account for accessing confluence API svc_jenkins_confluence
+
+clouds.yaml for the cloud connection.
