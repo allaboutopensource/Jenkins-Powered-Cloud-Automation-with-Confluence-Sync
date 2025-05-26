@@ -13,13 +13,13 @@ import openstack_project_list
 username = os.getenv('email')
 api_token = os.getenv('API_KEY')
 # Set the title and content of the page to create
-PAGE_ID = "700122109"
-page_title = 'OpenStack project space'
-space_key = "PENG"
+PAGE_ID = "71223342109"
+page_title = 'Cloud project space'
+space_key = "Devops-engineering"
 # Confluence API URL for creating a new page
-#url = f"https://ellucian-sandbox-102.atlassian.net/wiki/rest/api/content/{PAGE_ID}"
+#url = f"https://your-company.com.atlassian.net/wiki/rest/api/content/{PAGE_ID}"
 
-url = f"https://ellucian.atlassian.net/wiki/rest/api/content/{PAGE_ID}"
+url = f"https://your-company.com/wiki/rest/api/content/{PAGE_ID}"
 
 auth = base64.b64encode(f'{username}:{api_token}'.encode()).decode()
 # Request headers
@@ -32,7 +32,7 @@ headers = {
 response = requests.get(url, headers=headers)
 current_version = response.json()['version']['number']
 
-#print(openstack_project_list.project_list[5])
+
 # Add the project list to the HTML content
 project_list = openstack_project_list.project_list
 project_list_html = '<ul>'
